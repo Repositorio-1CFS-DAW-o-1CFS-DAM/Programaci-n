@@ -1,0 +1,39 @@
+/* Estilo para el título */
+#titulo {
+    color: red; /* Cambio de color a rojo */
+    text-align: center;
+    padding-top: 50px; /* Espacio superior para centrar el título */
+}
+
+/* Estilo para el cuadro con animación de colores */
+#animacion {
+    text-align: center;
+    padding-top: 20px;
+    animation: cambioColores 5s infinite; /* Animación de colores durante 5 segundos infinitamente */
+}
+
+/* Definición de la animación */
+@keyframes cambioColores {
+    0% { background-color: yellow; }
+    25% { background-color: blue; }
+    50% { background-color: green; }
+    75% { background-color: purple; }
+    100% { background-color: yellow; }
+}
+
+/* Estilos para el enlace */
+#animacion a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+/* Efecto hover para el enlace */
+#animacion a:hover {
+    background-color: #cccccc; /* Cambio de color al pasar el cursor */
+}
